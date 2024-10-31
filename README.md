@@ -10,9 +10,9 @@ This docker image contains firmware for the [netgear R6250 router firmware versi
 git clone https://github.com/0x05a/docker-aarch64-alpine.git
 
 cd docker-aarch64-alpine
+# download the release files and move them to this directory
 
-git lfs pull # important
-
+# build the docker image
 docker build -t --rm aarch64-alpine .
 ```
 
